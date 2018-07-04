@@ -11,6 +11,7 @@ package Behavioral.Mediator;
  */
 public abstract class User {
     protected Mediator mediator;
+    protected ArrayList<String> message_box;
     protected String name;
      
     public User(Mediator mediator, String name){
